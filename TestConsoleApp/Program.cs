@@ -27,7 +27,7 @@ namespace TestConsoleApp
 
             Console.WriteLine("start async");
             watch = Stopwatch.StartNew();
-            RunAsync();
+            RunAsync().Wait();
             watch.Stop();
             Console.WriteLine("Elapsed Milliseconds async: " + watch.ElapsedMilliseconds);
 
@@ -41,7 +41,7 @@ namespace TestConsoleApp
         }
 
 
-        static async void RunAsync() {
+        static async Task RunAsync() {
             await dbContext.Seconds.ForEachAsync( m => { Thread.Sleep(m.Seconds * 1000); } );
         }
 

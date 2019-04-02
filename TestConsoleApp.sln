@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.539
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestConsoleApp", "TestConsoleApp\TestConsoleApp.csproj", "{14377707-612F-40BA-95E5-AE8E2B855491}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestConsoleApp", "TestConsoleApp\TestConsoleApp.csproj", "{14377707-612F-40BA-95E5-AE8E2B855491}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestEFInserts", "TestEFInserts\TestEFInserts.csproj", "{0E2FBCAD-75B9-4B2C-A861-8882E7134B48}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{14377707-612F-40BA-95E5-AE8E2B855491}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{14377707-612F-40BA-95E5-AE8E2B855491}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{14377707-612F-40BA-95E5-AE8E2B855491}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E2FBCAD-75B9-4B2C-A861-8882E7134B48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E2FBCAD-75B9-4B2C-A861-8882E7134B48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E2FBCAD-75B9-4B2C-A861-8882E7134B48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E2FBCAD-75B9-4B2C-A861-8882E7134B48}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
